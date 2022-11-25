@@ -33,12 +33,18 @@ ul {
     padding: 20px;
     color: white;
 }
+.barranav a {
+    color: rgb(65, 69, 75);
+}
 .nav-links {
     display: flex;
     align-items: center;
 }
 .nav-links > li {
     margin: 0px 30px;
+}
+ul > a {
+    color: white;
 }
 header {
     width: 100vw;   
@@ -232,4 +238,47 @@ p {
     .nav-links > li {
         margin: 30px auto;
     }
+    .fileira {
+        flex-direction: column;
+    }
+    .fileira .coluna {
+        margin: 20px auto;
+    }
+    .coluna img {
+        max-width: 90%;
+    }
+    .criarconteudo {
+        width: 100%;
+    }
+    .produtos .col {
+        width: 100%;
+    }
+    .galeria {
+        justify-content: center;
+        align-items: center;
+    }
+    .galeria img {
+        width: 90%;
+    }
+    .footer {
+        padding: 10px;
+    }
+    .produtos .coluna img {
+        width: 80vw;
+    }
+ }
+ img {
+    transition: transform .3s ease;
+ }
+ img:hover {
+    transform: scale(1.1);
+ }
+ .ctn:hover {
+    background: #ffff;
+    color: rgb(102, 134, 182);
+    box-shadow: 2px 2px 5px black;
+ }
+ li:hover {
+    color: white;
+    cursor: pointer;
  }
